@@ -2,7 +2,7 @@ export const helloWorld = (input: string): string => {
     if(input === "bob"){
         return "Steven"
     } else if(input==="Jerry") {
-        return ""
+        return "Enter bob and see Steven, Jerry to return, else be doomed with ipsum."
     }
     return `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac lectus in lectus tempor malesuada ac nec augue. Mauris in orci justo. Suspendisse sit amet tempor augue. Duis ultricies placerat tellus, a imperdiet diam pretium vel. Aenean nunc diam, accumsan quis rutrum ac, laoreet vitae ipsum. Vestibulum quis interdum massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet, sem ac aliquam posuere, nisl lorem rhoncus justo, vel rutrum sem lorem mattis ipsum. Mauris lobortis quam tellus, ac eleifend libero fringilla sit amet. Nulla efficitur vestibulum risus facilisis lobortis. Sed aliquam eleifend est in dignissim.
 
