@@ -14,9 +14,11 @@
   "homepage": "https://github.com/RyanOatmeal/ryanoatmeal.github.io#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "npx tsc"
+    "compile": "npx tsc",
+    "simulate": "npx http-server docs"
   },
   "devDependencies": {
+    "http-server": "^14.1.1",
     "typescript": "^5.9.3"
   },
   "type": "module"
