@@ -5,9 +5,11 @@
   <body>
     <div id="output"></div>
 
-    <form id="inputForm">
-      <input type="text" id="userInput" placeHolder="enter bob and see Steven else be given Jerry" />
-    </form>
+    <div style="width: 100%; display: flex;">
+      <form style="flex: 1; display: flex;" id="inputForm">
+        <input style="flex: 1;" type="text" id="userInput" placeHolder="enter bob and see Steven else be given Jerry" />
+      </form>
+    </div>
 
     <script type="module">
       import { helloWorld } from './scripts/index.js';
