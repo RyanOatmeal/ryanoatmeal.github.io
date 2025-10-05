@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    Something in the Head
   </head>
   <body>
-    Something in the Body
+    <div id="output"></div>
+
+    <form id="inputForm">
+      <input type="text" id="userInput" placeHolder="enter as your heart desires" />
+    </form>
+
+    <script type="module">
+      import { helloWorld } from './scripts/index.js';
+
+    const form = document.getElementById('inputForm');
+    const input = document.getElementById('userInput');
+    const output = document.getElementById('output');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const value = input.value.trim();
+      const result = helloWorld(value);
+      output.textContent = result;
+      input.value = '';
+    });
+    </script>
   </body>
-  <footer>
-    Something in the footer
-  </footer>
 </html>
