@@ -1,0 +1,23 @@
+{
+  "name": "ryanoatmeal.github.io",
+  "author": "RyanOatmeal",
+  "license": "AGPL-3.0-or-later",
+  "version": "1.0.0",
+  "description": "My doodles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanOatmeal/ryanoatmeal.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RyanOatmeal/ryanoatmeal.github.io/issues"
+  },
+  "homepage": "https://github.com/RyanOatmeal/ryanoatmeal.github.io#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "type": "module"
+}
