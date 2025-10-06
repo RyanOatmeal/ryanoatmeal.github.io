@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script type="module" src="./scripts/sideEffects.js"></script>
   </head>
   <body>
     <div 
@@ -26,27 +27,5 @@
         />
       </form>
     </div>
-
-    <script type="module">
-      import { world } from './scripts/index.js';
-
-      const form = document.getElementById('inputForm');
-      const userInput = document.getElementById('userInput');
-      const outputArea = document.getElementById('outputArea');
-
-      let { state, output } = world({ state: {}, input: "Jerry"});
-      outputArea.textContent = output;
-
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const userInputValue = userInput.value.trim();
-      const { state: newState, output: newOutput } = world({ state, input: userInputValue });
-      state = newState;
-      output = newOutput;
-      outputArea.textContent = output;
-      userInput.value = '';
-    });
-    
-    </script>
   </body>
 </html>
