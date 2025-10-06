@@ -3,7 +3,10 @@ export const world = (props) => {
         return { state: { counter: 1 }, output: "Steven" };
     }
     else if (props?.input === "Jerry") {
-        return { state: { counter: 0 }, output: "Enter bob and see Steven, Jerry to return, else be doomed with ipsum." };
+        return {
+            state: { counter: 0 },
+            output: "Enter bob and see Steven, Jerry to return, else be doomed with ipsum.",
+        };
     }
     return { state: { counter: 10 }, output: lorem };
 };
