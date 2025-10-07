@@ -2,9 +2,11 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./docs/scripts",
-    "module": "nodenext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
     "target": "esnext",
-    "types": [],
+    "types": ["jest"],
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
@@ -24,5 +26,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "exclude": ["eslint.config.ts", "docs/scripts"]
+  "exclude": ["eslint.config.ts", "docs/scripts", "jest.config.ts", "src/**/*.test.ts"]
 }
