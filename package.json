@@ -19,7 +19,8 @@
     "prepare": "husky",
     "format": "npx prettier ./src --write",
     "format-check": "npx prettier ./src --check",
-    "lint": "npx eslint ./src"
+    "lint": "npx eslint ./src",
+    "pre-commit": "npm run compile && npm run format-check && npm run lint"
   },
   "devDependencies": {
     "@eslint/js": "^9.37.0",

@@ -15,7 +15,7 @@ https://sqlite.org/index.html
 
 # Installation
 
-1. `nvm install 22`
+1. `nvm install`
 2. `npm install`
 3. `npm run compile`
 
