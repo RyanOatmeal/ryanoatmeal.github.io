@@ -5,16 +5,16 @@ A place for me to doodle with programming.
 
 The following packages need to be installed.
 
-## nvm 
+## nix
 
-https://github.com/nvm-sh/nvm
+https://nixos.org/
 
 # Installation
 
 From the root of the directory, run:
 
 ```
-nvm install
+nix-shell
 npm install
 npm run compile
 ```

@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/RyanOatmeal/ryanoatmeal.github.io#readme",
   "scripts": {
-    "compile": "npx tsc",
+    "compile": "npx tsc && cpx \"src/**/*.{js,wasm,d.ts,json}\" docs/scripts",
     "start": "npx http-server docs",
     "prepare": "husky",
     "format": "npx prettier ./src --write",
@@ -35,7 +35,8 @@
     "prettier": "3.6.2",
     "ts-jest": "^29.4.4",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.45.0"
+    "typescript-eslint": "^8.45.0",
+    "cpx": "^1.5.0"
   },
   "type": "module"
 }
