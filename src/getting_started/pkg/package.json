@@ -1,0 +1,17 @@
+{
+  "name": "getting-started",
+  "type": "module",
+  "description": "A basic hello world.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "getting_started_bg.wasm",
+    "getting_started.js",
+    "getting_started.d.ts"
+  ],
+  "main": "getting_started.js",
+  "types": "getting_started.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

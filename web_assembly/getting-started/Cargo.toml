@@ -1,0 +1,12 @@
+[package]
+name = "getting-started"
+version = "0.1.0"
+description = "A basic hello world."
+license = "MIT"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
