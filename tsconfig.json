@@ -3,7 +3,6 @@
     "rootDir": "./src",
     "outDir": "./docs/scripts",
     "module": "esnext",
-    "allowJs": true,
     "moduleResolution": "bundler",
     "esModuleInterop": true,
     "target": "esnext",
@@ -27,6 +26,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["src/**/*"],
   "exclude": ["eslint.config.ts", "docs/scripts", "jest.config.ts", "src/**/*.test.ts"]
 }
